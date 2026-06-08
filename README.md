@@ -1,9 +1,3 @@
-readme_content = """# Smart Cinema Ticket Booking System 🎬🎟️
-
-A Native C++ Modular Application for Managing Cinema Ticket Queue, Cancellations, Scheduling, and Parallel Statistical Reporting.
-
-Developed as a Final Project for the **Algorithm and Programming (Algoritma dan Pemrograman)** Course.
-
 ---
 
 ## 📌 Anggota Kelompok
@@ -33,6 +27,20 @@ Aplikasi ini mengintegrasikan 5 konsep utama sesuai dengan spesifikasi lembar tu
 5. **Analisis Kompleksitas (Big O):** Setiap fungsi dioptimalkan untuk mencapai performa terbaik dan didokumentasikan batas atas performanya.
 
 ---
+## 🚀 Panduan Build dan Run
+
+Aplikasi ini menggunakan **CMake** untuk manajemen kompilasi lintas platform. Pastikan sistem Anda telah terpasang *compiler* C++ (GCC/MinGW/Clang) dan CMake Tools.
+
+### Kompilasi lewat Terminal / Command Prompt
+
+1. **Kloning atau Unduh** repositori ini ke direktori lokal Anda.
+2. **Buka terminal** dan navigasikan ke dalam folder utama proyek `CinemaBookingSystem/`.
+3. **Buat direktori build** terpisah agar *source code* tetap bersih:
+   ```bash
+   mkdir build
+   cd build
+
+---
 
 ## 📂 Struktur Direktori Proyek
 
@@ -52,3 +60,5 @@ CinemaBookingSystem/
     ├── MovieSchedule.cpp       # Implementasi Merge Sort & Binary Search
     ├── ParallelReport.h        # Interface kelas Laporan Paralel
     └── ParallelReport.cpp      # Implementasi Threading Rekap Penonton
+
+
