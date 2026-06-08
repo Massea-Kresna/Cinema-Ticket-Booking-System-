@@ -52,6 +52,40 @@ Aplikasi ini menggunakan **CMake** untuk manajemen kompilasi lintas platform. Pa
 7. Jalankan aplikasi:
    ```bash
    .\Debug\CinemaBookingSystem.exe
+
+---
+## 💻 Alur Pengujian Fitur Program
+
+Sebelum memulai pengujian, program ini telah memuat data jadwal film bawaan (acak) sebagai berikut untuk keperluan demonstrasi *sorting* dan *searching*:
+* `[104]` Inception - 20:00 (Studio 2)
+* `[101]` Interstellar - 13:00 (Studio 1)
+* `[103]` Oppenheimer - 18:30 (Studio 3)
+* `[102]` Dune: Part Two - 15:45 (Studio 4)
+
+Gunakan skenario pengujian di bawah ini secara berurutan untuk memvalidasi performa struktur data dan algoritma sistem:
+
+1. **Pengujian Queue (Antrean Masuk)**
+   * **Pilih Menu 1** (Tambah Antrian Pemesanan) -> Masukkan Nama Pelanggan: `Kresna`, ID Film: `101`.
+   * **Pilih Menu 1** (Tambah Antrian Pemesanan) -> Masukkan Nama Pelanggan: `Rakha`, ID Film: `104`.
+   * **Pilih Menu 1** (Tambah Antrian Pemesanan) -> Masukkan Nama Pelanggan: `Mayo`, ID Film: `102`.
+   * **Pilih Menu 5** (Lihat Antrian & Riwayat) -> Pastikan urutan antrean dari yang paling atas adalah Kresna, diikuti Rakha, dan Mayo. Ini memvalidasi prinsip **FIFO** (*First In, First Out*).
+
+2. **Pengujian Stack (Pembatalan & Undo)**
+   * **Pilih Menu 3** (Batalkan Antrian Depan) dua kali secara berturut-turut. Kresna dan Rakha akan terhapus dari antrean utama dan otomatis ditumpuk ke dalam memori Riwayat Pembatalan.
+   * **Pilih Menu 5** (Lihat Antrian & Riwayat) -> Perhatikan bagian "Riwayat Pembatalan". Rakha harus berada di urutan paling atas karena ia yang paling terakhir dibatalkan (Prinsip **LIFO** - *Last In, First Out*). Antrean utama kini hanya tersisa Mayo.
+   * **Pilih Menu 4** (Undo Pembatalan Terakhir) -> Rakha ditarik dari riwayat dan dikembalikan ke antrean utama. 
+
+3. **Pengujian Divide & Conquer (Sorting & Searching)**
+   * **Pilih Menu 6** (Cari Jadwal Film) -> Sistem akan otomatis mengeksekusi algoritma *Merge Sort* dan menampilkan jadwal film yang sudah terurut rapi dari ID 101 hingga 104.
+   * Saat program meminta input ID yang dicari, masukkan angka `103`.
+   * Sistem akan memotong ruang pencarian menggunakan *Binary Search* dan secara instan menampilkan: `Ditemukan: Oppenheimer di Studio 3`.
+
+4. **Pengujian Multithreading (Laporan Paralel)**
+   * **Pilih Menu 2** (Proses Pembelian) beberapa kali sampai seluruh antrean (Mayo dan Rakha) berhasil diproses dan dikosongkan dari daftar tunggu.
+   * **Pilih Menu 7** (Laporan Paralel) -> Sistem akan memecah beban komputasi ke beberapa *thread* secara bersamaan (sejumlah studio) untuk mencari tiket yang cocok. Hasil akhirnya akan mencetak: Studio 4 mendapat 1 penonton (Mayo), Studio 2 mendapat 1 penonton (Rakha), dan studio lainnya 0.
+
+5. **Pengujian Selesai**
+   * **Pilih Menu 0** (Keluar) untuk menghentikan alur program dengan aman dan membersihkan alokasi memori.
 ---
 
 ## 📂 Struktur Direktori Proyek
