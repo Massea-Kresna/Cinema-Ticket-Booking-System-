@@ -1,0 +1,3 @@
+D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CinemaBookingSystem.dir
+D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/ALL_BUILD.dir
+D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/ZERO_CHECK.dir

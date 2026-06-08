@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Massea\Code Smt.4\Alpro\Proyek Besar\Cinema Ticket Booking System\src\MovieSchedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Massea\Code Smt.4\Alpro\Proyek Besar\Cinema Ticket Booking System\src\ParallelReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Massea\Code Smt.4\Alpro\Proyek Besar\Cinema Ticket Booking System\src\QueueTicket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Massea\Code Smt.4\Alpro\Proyek Besar\Cinema Ticket Booking System\src\StackCancel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Massea\Code Smt.4\Alpro\Proyek Besar\Cinema Ticket Booking System\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Massea\Code Smt.4\Alpro\Proyek Besar\Cinema Ticket Booking System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3D665108-52B5-387B-95F7-9DDD44461554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

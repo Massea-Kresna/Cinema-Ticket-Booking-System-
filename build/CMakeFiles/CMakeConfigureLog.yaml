@@ -1,0 +1,1992 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\ATLMFC\\include"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+      Build started 08/06/2026 21:32:20.
+      
+      Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.37
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/"
+      - "C:/xampp/php/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/mavsdk/Release/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/LENOVO/.local/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/.dotnet/tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.com"
+    found: "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/"
+      - "C:/xampp/php/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/mavsdk/Release/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/LENOVO/.local/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/.dotnet/tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/xampp/php/lld-link.com"
+      - "C:/xampp/php/lld-link.exe"
+      - "C:/xampp/php/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.com"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.exe"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link"
+      - "C:/Program Files/Java/jdk-17/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-17/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-17/bin/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link"
+      - "C:/Program Files/usbipd-win/lld-link.com"
+      - "C:/Program Files/usbipd-win/lld-link.exe"
+      - "C:/Program Files/usbipd-win/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/opencv/build/x64/vc16/bin/lld-link.com"
+      - "D:/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "D:/opencv/build/x64/vc16/bin/lld-link"
+      - "D:/mavsdk/Release/bin/lld-link.com"
+      - "D:/mavsdk/Release/bin/lld-link.exe"
+      - "D:/mavsdk/Release/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Users/LENOVO/.local/bin/lld-link.com"
+      - "C:/Users/LENOVO/.local/bin/lld-link.exe"
+      - "C:/Users/LENOVO/.local/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/lld-link"
+      - "C:/Users/LENOVO/.dotnet/tools/lld-link.com"
+      - "C:/Users/LENOVO/.dotnet/tools/lld-link.exe"
+      - "C:/Users/LENOVO/.dotnet/tools/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/"
+      - "C:/xampp/php/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/mavsdk/Release/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/LENOVO/.local/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/.dotnet/tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.com"
+    found: "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/"
+      - "C:/xampp/php/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/mavsdk/Release/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/LENOVO/.local/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/.dotnet/tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/mt"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/"
+      - "C:/xampp/php/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/mavsdk/Release/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/LENOVO/.local/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/.dotnet/tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lib.com"
+    found: "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\ATLMFC\\include"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+      Build started 08/06/2026 21:32:24.
+      
+      Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.99
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/"
+      - "C:/xampp/php/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/mavsdk/Release/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/LENOVO/.local/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/.dotnet/tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/xampp/php/lld-link.com"
+      - "C:/xampp/php/lld-link.exe"
+      - "C:/xampp/php/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.com"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.exe"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link"
+      - "C:/Program Files/Java/jdk-17/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-17/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-17/bin/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link"
+      - "C:/Program Files/usbipd-win/lld-link.com"
+      - "C:/Program Files/usbipd-win/lld-link.exe"
+      - "C:/Program Files/usbipd-win/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/opencv/build/x64/vc16/bin/lld-link.com"
+      - "D:/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "D:/opencv/build/x64/vc16/bin/lld-link"
+      - "D:/mavsdk/Release/bin/lld-link.com"
+      - "D:/mavsdk/Release/bin/lld-link.exe"
+      - "D:/mavsdk/Release/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Users/LENOVO/.local/bin/lld-link.com"
+      - "C:/Users/LENOVO/.local/bin/lld-link.exe"
+      - "C:/Users/LENOVO/.local/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/lld-link"
+      - "C:/Users/LENOVO/.dotnet/tools/lld-link.com"
+      - "C:/Users/LENOVO/.dotnet/tools/lld-link.exe"
+      - "C:/Users/LENOVO/.dotnet/tools/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/lld-link.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/lld-link.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/"
+      - "C:/xampp/php/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/mavsdk/Release/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/LENOVO/.local/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/.dotnet/tools/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/CinemaBookingSystem/bin/"
+      - "C:/Program Files (x86)/CinemaBookingSystem/sbin/"
+      - "C:/Program Files (x86)/CinemaBookingSystem/"
+    searched_directories:
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/VC/vcpackages/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Team Tools/DiagnosticsHub/Collector/rc"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "D:/Massea/CC/Microsoft Visual Studio/18/Community/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\xampp\\php"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\mavsdk\\Release\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\LENOVO\\.local\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\.dotnet\\tools"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CinemaBookingSystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CinemaBookingSystem"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-ju2kw4"
+      binary: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-ju2kw4"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-ju2kw4'
+        
+        Run Build Command(s): "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ba8a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+        Build started 08/06/2026 21:32:27.
+        
+        Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ju2kw4\\cmTC_3ba8a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ju2kw4\\Debug\\".
+          Creating directory "cmTC_3ba8a.dir\\Debug\\cmTC_3ba8a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3ba8a.dir\\Debug\\cmTC_3ba8a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3ba8a.dir\\Debug\\cmTC_3ba8a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3ba8a.dir\\Debug\\\\" /Fd"cmTC_3ba8a.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35730 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3ba8a.dir\\Debug\\\\" /Fd"cmTC_3ba8a.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ju2kw4\\Debug\\cmTC_3ba8a.exe" /INCREMENTAL /ILK:"cmTC_3ba8a.dir\\Debug\\cmTC_3ba8a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-ju2kw4/Debug/cmTC_3ba8a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-ju2kw4/Debug/cmTC_3ba8a.lib" /MACHINE:X86  /machine:X86 cmTC_3ba8a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3ba8a.vcxproj -> D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ju2kw4\\Debug\\cmTC_3ba8a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3ba8a.dir\\Debug\\cmTC_3ba8a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3ba8a.dir\\Debug\\cmTC_3ba8a.tlog\\cmTC_3ba8a.lastbuildstate".
+        Done Building Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ju2kw4\\cmTC_3ba8a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.15
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35730.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-2zl9bl"
+      binary: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-2zl9bl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-2zl9bl'
+        
+        Run Build Command(s): "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67d70.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+        Build started 08/06/2026 21:32:30.
+        
+        Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zl9bl\\cmTC_67d70.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zl9bl\\Debug\\".
+          Creating directory "cmTC_67d70.dir\\Debug\\cmTC_67d70.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_67d70.dir\\Debug\\cmTC_67d70.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_67d70.dir\\Debug\\cmTC_67d70.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_67d70.dir\\Debug\\\\" /Fd"cmTC_67d70.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35730 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_67d70.dir\\Debug\\\\" /Fd"cmTC_67d70.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zl9bl\\Debug\\cmTC_67d70.exe" /INCREMENTAL /ILK:"cmTC_67d70.dir\\Debug\\cmTC_67d70.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-2zl9bl/Debug/cmTC_67d70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-2zl9bl/Debug/cmTC_67d70.lib" /MACHINE:X86  /machine:X86 cmTC_67d70.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_67d70.vcxproj -> D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zl9bl\\Debug\\cmTC_67d70.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_67d70.dir\\Debug\\cmTC_67d70.tlog\\unsuccessfulbuild".
+          Touching "cmTC_67d70.dir\\Debug\\cmTC_67d70.tlog\\cmTC_67d70.lastbuildstate".
+        Done Building Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zl9bl\\cmTC_67d70.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.17
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Massea/CC/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35730.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-0eapgn"
+      binary: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-0eapgn"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-0eapgn'
+        
+        Run Build Command(s): "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ac9af.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+        Build started 08/06/2026 21:32:34.
+        
+        Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\cmTC_ac9af.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\Debug\\".
+          Creating directory "cmTC_ac9af.dir\\Debug\\cmTC_ac9af.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ac9af.dir\\Debug\\cmTC_ac9af.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ac9af.dir\\Debug\\cmTC_ac9af.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ac9af.dir\\Debug\\\\" /Fd"cmTC_ac9af.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35730 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ac9af.dir\\Debug\\\\" /Fd"cmTC_ac9af.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\src.c"
+          src.c
+        D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\cmTC_ac9af.vcxproj]
+        Done Building Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\cmTC_ac9af.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\cmTC_ac9af.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0eapgn\\cmTC_ac9af.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-iufpq1"
+      binary: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-iufpq1"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-iufpq1'
+        
+        Run Build Command(s): "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ce0dc.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+        Build started 08/06/2026 21:32:36.
+        
+        Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\cmTC_ce0dc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\Debug\\".
+          Creating directory "cmTC_ce0dc.dir\\Debug\\cmTC_ce0dc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ce0dc.dir\\Debug\\cmTC_ce0dc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ce0dc.dir\\Debug\\cmTC_ce0dc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ce0dc.dir\\Debug\\\\" /Fd"cmTC_ce0dc.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35730 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ce0dc.dir\\Debug\\\\" /Fd"cmTC_ce0dc.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\Debug\\cmTC_ce0dc.exe" /INCREMENTAL /ILK:"cmTC_ce0dc.dir\\Debug\\cmTC_ce0dc.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-iufpq1/Debug/cmTC_ce0dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-iufpq1/Debug/cmTC_ce0dc.lib" /MACHINE:X86  /machine:X86 cmTC_ce0dc.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\cmTC_ce0dc.vcxproj]
+        Done Building Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\cmTC_ce0dc.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\cmTC_ce0dc.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iufpq1\\cmTC_ce0dc.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-43o9is"
+      binary: "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-43o9is"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-43o9is'
+        
+        Run Build Command(s): "D:/Massea/CC/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de0e5.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+        Build started 08/06/2026 21:32:38.
+        
+        Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\cmTC_de0e5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\Debug\\".
+          Creating directory "cmTC_de0e5.dir\\Debug\\cmTC_de0e5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_de0e5.dir\\Debug\\cmTC_de0e5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_de0e5.dir\\Debug\\cmTC_de0e5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_de0e5.dir\\Debug\\\\" /Fd"cmTC_de0e5.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35730 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_de0e5.dir\\Debug\\\\" /Fd"cmTC_de0e5.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\Massea\\CC\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\Debug\\cmTC_de0e5.exe" /INCREMENTAL /ILK:"cmTC_de0e5.dir\\Debug\\cmTC_de0e5.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-43o9is/Debug/cmTC_de0e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CMakeFiles/CMakeScratch/TryCompile-43o9is/Debug/cmTC_de0e5.lib" /MACHINE:X86  /machine:X86 cmTC_de0e5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\cmTC_de0e5.vcxproj]
+        Done Building Project "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\cmTC_de0e5.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\cmTC_de0e5.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Massea\\Code Smt.4\\Alpro\\Proyek Besar\\Cinema Ticket Booking System\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43o9is\\cmTC_de0e5.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 1
+...

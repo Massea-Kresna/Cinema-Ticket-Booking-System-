@@ -1,0 +1,10 @@
+^D:\MASSEA\CODE SMT.4\ALPRO\PROYEK BESAR\CINEMA TICKET BOOKING SYSTEM\BUILD\CMAKEFILES\9873ED0CD61CE725B7FE6B3EF1DCC6BC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System" "-BD:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Massea/Code Smt.4/Alpro/Proyek Besar/Cinema Ticket Booking System/build/CinemaBookingSystem.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
