@@ -39,7 +39,15 @@ Aplikasi ini menggunakan **CMake** untuk manajemen kompilasi lintas platform. Pa
    ```bash
    mkdir build
    cd build
-
+4. Generate konfigurasi project menggunakan CMake:
+   ```bash
+   cmake ..
+5. Kompilasi proyek menjadi file executable:
+   ```bash
+   .\Debug\CinemaBookingSystem.exe
+7. Jalankan aplikasi:
+   ```bash
+   .\Debug\CinemaBookingSystem.exe
 ---
 
 ## 📂 Struktur Direktori Proyek
