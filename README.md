@@ -1,3 +1,7 @@
+# Smart Cinema Ticket Booking System 🎬🎟️
+
+A Native C++ Modular Application for Managing Cinema Ticket Queue, Cancellations, Scheduling, and Parallel Statistical Reporting.
+
 ---
 
 ## 📌 Anggota Kelompok
@@ -44,7 +48,7 @@ Aplikasi ini menggunakan **CMake** untuk manajemen kompilasi lintas platform. Pa
    cmake ..
 5. Kompilasi proyek menjadi file executable:
    ```bash
-   .\Debug\CinemaBookingSystem.exe
+   cmake --build .
 7. Jalankan aplikasi:
    ```bash
    .\Debug\CinemaBookingSystem.exe
