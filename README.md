@@ -8,8 +8,8 @@ Developed as a Final Project for the **Algorithm and Programming (Algoritma dan 
 
 ## 📌 Anggota Kelompok
 * **Massea Kresna Aravena Putra Febrianto** - (NIM: 21120124120027) - *Teknik Komputer, Universitas Diponegoro*
-* [Nama Anggota 2] - (NIM: [NIM Anggota 2])
-* [Nama Anggota 3] - (NIM: [NIM Anggota 3])
+* **Rakha Aljiva Prabaswara** - (NIM: 21120124140126) - *Teknik Komputer, Universitas Diponegoro*
+* **Mayo Pinto Denai** - (NIM: 21120124140133) - *Teknik Komputer, Universitas Diponegoro*
 
 ---
 
@@ -37,3 +37,18 @@ Aplikasi ini mengintegrasikan 5 konsep utama sesuai dengan spesifikasi lembar tu
 ## 📂 Struktur Direktori Proyek
 
 Proyek ini dibangun menggunakan pendekatan **Modular Programming**, memisahkan definisi (*Interface/Header*) dengan implementasi (*Source Code*):
+
+```text
+CinemaBookingSystem/
+├── CMakeLists.txt              # Konfigurasi Build Automation menggunakan CMake
+└── src/
+    ├── main.cpp                # Alur utama program berbasis Menu CLI
+    ├── Models.h                # Definisi Struct Data (Movie, Ticket)
+    ├── QueueTicket.h           # Interface kelas Antrian (Queue)
+    ├── QueueTicket.cpp         # Implementasi operasi Enqueue & Dequeue
+    ├── StackCancel.h           # Interface kelas Riwayat Pembatalan (Stack)
+    ├── StackCancel.cpp         # Implementasi operasi Push & Pop (Undo)
+    ├── MovieSchedule.h         # Interface kelas Divide & Conquer (Sort & Search)
+    ├── MovieSchedule.cpp       # Implementasi Merge Sort & Binary Search
+    ├── ParallelReport.h        # Interface kelas Laporan Paralel
+    └── ParallelReport.cpp      # Implementasi Threading Rekap Penonton
